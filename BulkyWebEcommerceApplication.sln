@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.33711.374
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulkyWebEcommerceApplication", "BulkyWebEcommerceApplication\BulkyWebEcommerceApplication.csproj", "{5E0179F5-DA19-4C0F-A8AC-9A772C87FEDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulkyWebEcommerceApplication", "BulkyWebEcommerceApplication\BulkyWebEcommerceApplication.csproj", "{5E0179F5-DA19-4C0F-A8AC-9A772C87FEDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulkyWebECommerce_Temp", "BulkyWebECommerce_Temp\BulkyWebECommerce_Temp.csproj", "{93C6BA51-8B95-46A9-8ADA-01D954DB2044}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5E0179F5-DA19-4C0F-A8AC-9A772C87FEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E0179F5-DA19-4C0F-A8AC-9A772C87FEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E0179F5-DA19-4C0F-A8AC-9A772C87FEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93C6BA51-8B95-46A9-8ADA-01D954DB2044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C6BA51-8B95-46A9-8ADA-01D954DB2044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C6BA51-8B95-46A9-8ADA-01D954DB2044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C6BA51-8B95-46A9-8ADA-01D954DB2044}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
