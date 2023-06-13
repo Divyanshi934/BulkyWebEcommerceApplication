@@ -33,5 +33,20 @@ namespace Bulky.Models
         [Display(Name = "Price for 100+")]
         [Range(1, 10000)]
         public double Price100 { get; set; }
+
+        //Adding foreign key.
+        //Tried both below codes to add a foreign key but given below error:
+        //The ALTER TABLE statement conflicted with the FOREIGN KEY constraint "FK_Products_Categories_CategoryId". The conflict occurred in database "Bulky", table "dbo.Categories", column 'Id'.
+
+        //public int CategoryId { get; set; }
+        //[ForeignKey("CategoryId")]
+        //public Category Category { get; set; }
+
+        [Required]
+        [ForeignKey("CategoryId")]
+        [Display(Name = "Category")]
+        public int CategoryId { get; set; }
+        [ValidateNever]
+        public Category Category { get; set; }
     }
 }
